@@ -34,6 +34,27 @@ Trusted academic certificates — verifiable in seconds using blockchain.
 ## 📌 Deploy Guide
 See `smart-contract/deploy-instructions.md`.
 
+## 🌐 GitHub Pages Deployment
+
+This project is configured for automatic deployment to GitHub Pages.
+
+### Setup Instructions:
+
+1. **Enable GitHub Pages in your repository:**
+   - Go to your repository Settings → Pages
+   - Under "Source", select "GitHub Actions"
+
+2. **Push to main/master branch:**
+   - The workflow will automatically build and deploy on every push to `main` or `master`
+   - You can also manually trigger it from the Actions tab
+
+3. **Access your site:**
+   - Your site will be available at: `https://[your-username].github.io/[repository-name]/`
+   - The first deployment may take a few minutes
+
+### Manual Deployment:
+You can also manually trigger the deployment from the Actions tab → "Deploy to GitHub Pages" → "Run workflow"
+
 ## 👀 Demo Flow
 1. Fill out details → Issue → MetaMask sign
 2. QR generated ✔
